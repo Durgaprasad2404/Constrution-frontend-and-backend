@@ -1,0 +1,68 @@
+.contact-us {
+    margin: 8px;
+    background-color: #f1f1f1;
+    padding: 50px 0;
+    box-shadow: 1px 1px 1px 1px #333;
+}
+
+.contactus-container {
+    max-width: 700px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contactus-container h1 {
+    font-size: 2.4em;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.contactus-container p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input,
+textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 100%;
+    box-sizing: border-box;
+    resize: vertical;
+
+    &:hover {
+        box-shadow: 1px 1px 1px 1px #333;
+        transform: translateY(-3px);
+    }
+}
+
+.conactus-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.conactus-button:hover {
+    background-color: #3e8e41;
+}
+
+.success-message {
+    background-color: #dff0d8;
+    border: 1px solid #c7e1c3;
+    padding: 10px;
+    margin-top: 20px;
+}

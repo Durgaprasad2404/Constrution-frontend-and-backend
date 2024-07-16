@@ -1,0 +1,107 @@
+.EquipmentLand-bgcontainer {
+    margin-top: 35px;
+}
+
+.EquipmentLand-heading {
+    border: none;
+    padding: 15px;
+    margin: 15px 0;
+    color: #ddd;
+    background-image: linear-gradient(to left, white, rgb(25, 25, 206));
+}
+
+.span-see-all {
+    font-size: small;
+    font-weight: 300;
+    margin-left: 30px;
+    color: black;
+}
+
+.EquipmentLand-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.EquipmentLand {
+    width: 300px;
+    height: 510px;
+    padding: 20px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: start;
+
+}
+
+.EquipmentLand-para {
+    color: #f9f9f9;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+
+    &:hover {
+        display: block;
+    }
+}
+
+.EquipmentLand-btn {
+    padding: 5px 15px;
+    border-radius: 5px;
+    border: none;
+
+    &:hover {
+        border-bottom: 2px solid red;
+    }
+}
+
+.EquipmentLand-products {
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 25px;
+    margin: 15px 0;
+    gap: 25px;
+    overflow-y: auto;
+    background-color: #004bad54;
+}
+
+.EquipmentLand-product {
+    width: 300px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background-color: #dcdcdc;
+
+    &:hover {
+        transform: scale(1.1);
+        box-shadow: 1px 1px 3px 1px rgb(0, 0, 0);
+    }
+}
+
+.EquipmentLand-product-para {
+    font-size: x-small;
+}
+
+.EquipmentLand-img {
+    height: 120px;
+    width: 120px;
+    mix-blend-mode: multiply;
+}
+
+@media screen and (max-width:576px) {
+    .EquipmentLand-products {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .EquipmentLand-container {
+        flex-direction: column;
+    }
+
+    .EquipmentLand-heading {
+        font-size: 20px;
+    }
+}

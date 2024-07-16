@@ -1,0 +1,49 @@
+.best-deals-bgcontainer {
+    background-color: #fff;
+    margin: 30px 0;
+}
+
+.best-deals-heading {
+    border: none;
+    padding: 15px;
+    margin: 15px 0;
+    color: #ddd;
+    background-image: linear-gradient(to left, white, rgb(25, 25, 206));
+}
+
+.best-deal-product {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    background-color: #004bad54;
+}
+
+.best-deal-product h5 {
+    color: #fff;
+}
+
+.best-deal-product img {
+    margin: 10px 0;
+    height: 100px;
+    width: 150px;
+    mix-blend-mode: multiply;
+    filter: contrast(1);
+}
+
+.best-deal-offer {
+    background-color: red;
+    color: #fff;
+    padding: 3px 15px;
+    border-radius: 10px;
+    margin: 5px 10px;
+    font-size: medium;
+}
+
+.off-Con {
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

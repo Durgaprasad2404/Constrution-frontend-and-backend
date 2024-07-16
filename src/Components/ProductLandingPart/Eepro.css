@@ -1,0 +1,102 @@
+.EE-path-bgcontainer {
+    margin: 25px 0;
+}
+
+.building-construction-EE-materials-bgcontainer {
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.building-construction-EE-products-container {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    gap: 15px;
+    overflow-x: auto;
+}
+
+.building-construction-EE-product-container {
+    margin: 10px 0;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    background-color: #dcdcdc;
+
+    &:hover {
+        transform: scaleY(1.1);
+        box-shadow: 1px 1px 3px 1px rgb(0, 0, 0);
+    }
+}
+
+.building-construction-EE-product-para {
+    font-size: small;
+    width: 200px;
+    max-height: 100px;
+}
+
+.building-construction-EE-img {
+    height: 150px;
+    width: 150px;
+    mix-blend-mode: multiply;
+}
+
+.building-construction-EE-materials {
+    width: 300px;
+    height: 350px;
+    padding: 20px;
+    margin: 10px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: start;
+
+}
+
+.building-construction-EE-heading {
+    border: none;
+    padding: 15px;
+    margin: 15px 0;
+    color: #ddd;
+    background-image: linear-gradient(to left, white, rgb(25, 25, 206));
+}
+
+.building-construction-EE-para {
+    color: #f9f9f9;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+
+    &:hover {
+        display: block;
+    }
+}
+
+.building-construction-EE-btn {
+    padding: 5px 15px;
+    border-radius: 5px;
+    border: none;
+    border-bottom: 2px solid red;
+
+    &:hover {
+        border: none;
+        box-shadow: 1px 1px 3px 1px red;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .building-construction-EE-materials-bgcontainer {
+        flex-direction: column;
+    }
+
+    .building-construction-EE-heading {
+        font-size: 20px;
+    }
+}

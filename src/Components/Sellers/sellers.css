@@ -1,0 +1,105 @@
+.sell-container {
+    padding: 15px;
+}
+
+.sellers-heading {
+    position: sticky;
+    top: 0;
+    z-index: 900;
+    padding: 15px;
+    margin: 15px 0;
+    color: #ddd;
+    background-image: linear-gradient(to left, white, rgb(25, 25, 206));
+}
+
+.strick-btn {
+    position: sticky;
+    top: 100px;
+    z-index: 1000;
+}
+
+.seller-container {
+    box-shadow: 1px 1px 1px 1px #333;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.vehicle-caro {
+    height: 350px;
+    width: 40vw;
+    text-align: center;
+}
+
+.vehicle-caro-img {
+    height: 300px;
+    width: 100%;
+}
+
+.seller-para {
+    width: 40vw;
+}
+
+.vehicle-details-container {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.vehicle-details {
+    background-color: rgba(101, 100, 98, 0.299);
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+.selling-price {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.selling-model {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.owner-location {
+    margin-top: 30px;
+}
+
+.owner-details {
+    background-color: rgba(84, 83, 82, 0.299);
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width:664px) {
+    .seller-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .vehicle-caro {
+        width: 100%;
+    }
+
+    .seller-para {
+        width: 100%;
+    }
+
+    .owner-details {
+        text-align: center;
+    }
+
+    .btn-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
